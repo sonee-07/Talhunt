@@ -111,7 +111,7 @@ public class MainVideo extends AppCompatActivity implements View.OnClickListener
                 Upload u = new Upload();
                 String msg = null;
                 try {
-                    msg = u.uploadVideo(selectedPath);
+                    msg = u.uploadVideo(selectedPath,MainVideo.this);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
