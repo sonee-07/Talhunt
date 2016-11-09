@@ -36,7 +36,7 @@ public class Register extends Activity {
     EditText inputpassword;
     Button btn_register;
 
-    private static String url_create_user="http://192.168.0.110/Talhunt/insert.php";//What to give here?
+    private static String url_create_user="http://192.168.0.111/Talhunt/insert.php";//What to give here?
     private static final String TAG_SUCCESS="success";
 
     @Override
